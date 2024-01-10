@@ -1,0 +1,93 @@
+body{
+     
+    padding: 0;
+    margin: auto;
+    background-color: blue;
+    display: inline;
+    
+   
+}
+#ini_centro{   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    color:#e5f04c ;
+} 
+#ini_quadro{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #e5f04c;
+    text-align: center;
+    
+}
+
+/* parte 2*/
+
+#quadra_nome_aluno{
+    height: 400px;
+    text-align: center;
+    border: 6px solid antiquewhite;
+    color: #fafaf6;
+    position: relative;
+    font-size: 40px;
+}
+.contener{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* parte 3*/
+
+#informa{   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+} 
+#cronometro{
+    background-color:#fafaf6;
+    width: 300px;
+    height: 100px;
+    position: relative;
+
+}
+
+#koryo{
+    background-color:#55f32d;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    border-radius: 5px;
+}
+#label_koryo{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  color: #fafaf6;
+}
+#pyongwon{
+    background-color:#961175;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    border-radius: 5px;
+}
+#label_pyongwon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: #fafaf6;
+}
+
+/* parte 4*/
