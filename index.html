@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,7 @@
     </div>
     <div id="informa">
         <div id="cronometro">
-           
+           <h1 id="wacht">00:00:00</h1>
         </div >
         <div id="koryo">
               <label id="label_koryo">KORYO</label>
@@ -49,9 +49,9 @@
     <div id="ini_centro">
         <div id="ini_um">
             <label for=""></label>
-            <button>START</button>
-            <button>STOP</button>
-            <button>RESET</button>
+            <button class="iniciar" onclick="start()">iniciar</button>
+            <button class="pausar" onclick="pause()">reset</button>
+            <button class="parar" onclick="stop()">iniciar</button>
         </div >
         <div id="ini_dois">
             <label for="">POOMSAE 1</label>
@@ -64,5 +64,6 @@
         </div>      
                    
     </div>
+    <script src="time.js"></script>
 </body>
 </html>
